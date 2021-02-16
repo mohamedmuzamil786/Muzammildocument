@@ -1,0 +1,134 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 89236003782,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user has to lunch chrome and hit the url",
+            "match": {
+              "location": "LoginPageSteps.user_has_to_lunch_chrome_and_hit_the_url()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 14141919298,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.Beforeexecution()"
+            }
+          },
+          {
+            "result": {
+              "duration": 179864589,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.lastexecution()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "To verify login functionlity with valid username and ivalid pssword in FB",
+        "description": "",
+        "id": "to-validate-the-login-functionality;to-verify-login-functionlity-with-valid-username-and-ivalid-pssword-in-fb",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2339885909,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user has enter the username and password",
+            "match": {
+              "location": "LoginPageSteps.user_has_enter_the_username_and_password(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "syed farith",
+                  "suresh",
+                  "1234567",
+                  "21-03"
+                ]
+              },
+              {
+                "cells": [
+                  "Mohammed",
+                  "Muzamil",
+                  "1234567",
+                  "21-05"
+                ]
+              },
+              {
+                "cells": [
+                  "Mohamme",
+                  "Muzmil",
+                  "134567",
+                  "31-05"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 536791893,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "click the login button",
+            "match": {
+              "location": "LoginPageSteps.click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 280544,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user unable to enter the homepage",
+            "match": {
+              "location": "LoginPageSteps.user_unable_to_enter_the_homepage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@sanity"
+          }
+        ]
+      }
+    ],
+    "name": "To Validate the login functionality",
+    "description": "",
+    "id": "to-validate-the-login-functionality",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Login.feature",
+    "tags": []
+  }
+]
